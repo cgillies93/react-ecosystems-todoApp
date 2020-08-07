@@ -1,5 +1,14 @@
 .app {
-  margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #222222;
+}
+
+button {
+  border-radius: 3px;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
 }
