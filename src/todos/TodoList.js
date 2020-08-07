@@ -8,6 +8,7 @@ import './TodoList.css';
 
 const TodoList = ( { todos = [], onRemovePressed, onCompletedPressed } ) => (
     <div className="list-wrapper">
+        <h1>Todo</h1>
         <NewTodoForm />
         {todos.map(todo =>
           <TodoListItem

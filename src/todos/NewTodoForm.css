@@ -8,6 +8,7 @@
 }
 
 .new-todo-input {
+  font-family: 'Open Sans Condensed', sans-serif;
   width: 60%;
   max-width: 327px;
   max-height: 20px;
